@@ -1,0 +1,3 @@
+InputEvents = {
+    'Jump' : 'Input.Jump'
+}

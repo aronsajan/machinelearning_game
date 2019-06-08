@@ -1,0 +1,17 @@
+{
+  "name": "ml_game_dev",
+  "version": "1.0.0",
+  "description": "Game to test supervised training",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Aron Sajan Philip",
+  "license": "MIT",
+  "dependencies": {
+    "csv-writer": "^1.3.0",
+    "electron": "^5.0.2",
+    "require": "^2.4.20",
+    "uuid": "^3.3.2"
+  }
+}

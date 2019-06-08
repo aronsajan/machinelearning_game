@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <script>
+            window.$ = require("./libs/jquery-3.4.1.min.js")
+            const MainController = require("./gameController/mainController.js")
+            $(document).ready(()=>{ 
+                canvas_element = document.getElementById("gameCanvas");
+                canvas = canvas_element.getContext('2d');
+                mnCtrl = new MainController(canvas, canvas_element, document)
+                mnCtrl.start()
+            })
+        </script>
+    </head>
+    <body margin=0>
+        <canvas id='gameCanvas' width=1200 height="450" margin="0px" ></canvas>
+    </body>
+</html>

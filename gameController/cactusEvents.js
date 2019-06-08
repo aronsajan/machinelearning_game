@@ -1,0 +1,3 @@
+CactusEvents = {
+    MOVED : 'Cactus.Moved'
+};
