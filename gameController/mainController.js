@@ -19,7 +19,7 @@ function MainController(canvas, canvas_element, document){
  self.ipManager = new InputManager();
  self.ipManager.registerInputDevice(document, InputDevices.KEYBOARD);
  self.csvWriter = CSVWriter({
-    path:'./callibration_'+uuid()+'.csv',
+    path:'./ai_player/training/callibration_'+uuid()+'.csv',
     header:[{
         id:'distance',
         title:'DistanceToObj'
